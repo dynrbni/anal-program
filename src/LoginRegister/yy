@@ -1,0 +1,56 @@
+<p className="text-gray-500 text-center mb-6">
+    Use your registered email and password to log in to your Felichia account.
+  </p>
+<div className="flex items-center my-4">
+          <hr className="flex-grow border-gray-300" />
+          <span className="mx-2 text-gray-400">Or</span>
+          <hr className="flex-grow border-gray-300" />
+        </div>
+        <div className="flex justify-center space-x-4 items-center">
+          <button className="bg-primary text-white px-4 py-2 rounded-md text-sm flex items-center space-x-2 cursor-pointer">
+            <img src={QRcode} alt="QR" className="w-5 h-5" />
+            <span>Scan QR</span>
+          </button>
+          <img src={Google} alt="Google" className="w-6 h-6 cursor-pointer" />
+          <img src={Facebook} alt="Facebook" className="w-6 h-6 cursor-pointer" />
+          <img src={Vk} alt="VK" className="w-6 h-6 cursor-pointer" />
+        </div>
+
+        <div className="flex justify-between text-sm text-gray-500">
+            <a href="#" className="text-sm text-center mt-2 hover:underline">Forgot Password?</a>
+            <p className="text-sm text-center mt-2">
+  Don"t have an account?{" "}
+  <button onClick={onSwitch} className="text-blue-600 hover:underline cursor-pointer">
+    Register
+  </button>
+</p>
+
+          </div>
+
+
+
+          register
+          <p className="text-gray-500 text-center mb-6">
+            Use your email password and number phone to register in Felichia account.
+          </p>
+
+          <div className="flex text-sm text-gray-500">
+            <p className="text-sm text-center">
+              Already have an account?{" "}
+              <button onClick={onSwitch} className="text-blue-600 hover:underline cursor-pointer">
+              Login
+              </button>
+            </p>
+
+          </div>
+
+          <div className="flex items-center my-4">
+            <hr className="flex-grow border-gray-300" />
+            <span className="mx-2 text-gray-400">Or</span>
+            <hr className="flex-grow border-gray-300" />
+          </div>
+          <div className="flex justify-center space-x-4 items-center">
+            <img src={Google} alt="Google" className="w-6 h-6 cursor-pointer" />
+            <img src={Facebook} alt="Facebook" className="w-6 h-6 cursor-pointer" />
+            <img src={Vk} alt="VK" className="w-6 h-6 cursor-pointer" />
+          </div>
